@@ -1,4 +1,4 @@
-export const renderPage = (data) => {
+export const renderPage = () => {
 	return `
 		<!DOCTYPE html>
 		<html lang="en">
