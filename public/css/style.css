@@ -1,0 +1,38 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+	background-color: #f4f4f4;
+	margin-bottom: 10px;
+}
+
+.navigation__list{
+	gap: 10px;
+	display: flex;
+	margin: 0;
+	padding: 10px;
+	list-style-type: none;
+}
+
+.navigation__link{
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+}
+
+.navigation__link:hover,
+.navigation__link:active{
+	color: #ff4500;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.label{
+	display: flex;
+	flex-direction: column;
+	width: 100px;
+	margin: 10px 0;
+}
